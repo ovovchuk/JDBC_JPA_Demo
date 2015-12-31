@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Spring JDBC & JPA</title>
-</head>
+<#include "head.html">
 <body>
 <h1>Simple Spring Application</h1>
 

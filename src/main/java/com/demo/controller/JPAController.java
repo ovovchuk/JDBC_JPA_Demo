@@ -96,4 +96,16 @@ public class JPAController {
 
         return "func";
     }
+
+    @RequestMapping(value = "/ftl", method = RequestMethod.GET)
+    public String ftlTest(Model model) {
+        String json = "{\"firstName\": \"Andy\", \n" +
+                "  \"lastName\": \"Bob\",\n" +
+                "  \"age\": 30\n" +
+                "}";
+
+        model.addAttribute("json", json);
+
+        return "ftltest";
+    }
 }
